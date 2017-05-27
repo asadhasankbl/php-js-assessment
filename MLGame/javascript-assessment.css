@@ -1,0 +1,55 @@
+body {
+	font-family: 'Arial';
+	margin: 0 auto;
+	text-align: center;
+	padding: 0 20px;
+	max-width: 90%;
+	font-size: 25px;
+	background: lightgray;
+}
+
+button {
+	font-size: 25px;
+	font-weight: bold;
+	padding: 10px;
+	margin: 10px;
+}
+
+input.fill {
+            margin:2px;
+            background-color: transparent;
+            border-color: black;
+            border: 02px solid;
+            border-left: 0px;
+            border-top: 0px;
+            border-right: 0px;
+            height: 37px;
+            width: 221px;
+            outline:none;
+            border-style: dashed;
+            font-size: 27px;
+            font-weight: bold;
+            text-align: center;
+            color: Grey;
+}
+
+.fill {
+            margin:2px;
+            width: 160px;
+            font-size: 27px;
+            font-weight: bold;
+            text-align: center;
+            color: Grey;
+            background: lightgraywhite;
+}
+
+#madlib {
+	font-size: 30px;
+	line-height: 43px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+#btntwo{
+
+}

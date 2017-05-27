@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Mad Libs Javascript Assessment
+        </title>
+        <link rel="stylesheet" href="javascript-assessment.css" type="text/css" />
+    </head>
+    <body>
+        
+        <div id="keyDiv">
+            <h1>
+                A Beautiful Journey to Afghanistan
+            </h1>
+		    
+    		<span>
+            My friend and I visited the beautiful province of 
+        		<input type="text" id="noun" class="fill" placeholder="Province Name"> 
+    		    in Afghanistan.  <br>
+    		</span>
+    		<span>
+    		    My friend,   
+    		        <input type="text" id="verb" class="fill" placeholder="Friend Name"> 
+        		loved the countryside and the culture. It was really enjoyable.  <br> 
+    		</span>
+    		<span>
+        		My friend was  
+        		<input type="text" id="adjective" class="fill" placeholder="Adjective"> 
+        		a lot during this trip, it was memorable.
+    		</span>
+    		<br>
+    		<button id="SendTheOSCSotry" onclick="reLoadButton()">
+    		    Submit the OCS Story
+    		</button>
+    		<br>
+
+
+    		<script type="text/javascript" src="javascript-assessment.js"></script>
+        </div>
+        <div id="btntwo">
+            <center>
+
+            <button id="reFresh" value="Refresh Page" style="display: none;" onClick="window.location.reload()">
+    		    Start Over
+    		</button>
+    		</center>
+    	</div>
+
+
+
+    </body>
+</html>
+
+
